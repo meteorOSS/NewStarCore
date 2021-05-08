@@ -1,0 +1,57 @@
+
+
+setting:
+  master: true
+  limit: 100
+  auto-save: 15
+food:
+  enable: true
+  proa: 3
+input-water:
+  effect:
+    type: 'DRIP_WATER'
+    amount: 35
+    sound: 'ENTITY_BOAT_PADDLE_WATER'
+wilt-plant:
+  effect:
+    amount: 130
+    type: 'SLIME'
+    sound: 'BLOCK_NOTE_BASS'
+sickle-reward:
+  effect:
+    amount: 130
+    type: 'SLIME'
+    sound: 'BLOCK_NOTE_BASS'
+plant-mellow:
+  effect:
+    amount: 5
+    type: 'VILLAGER_HAPPY'
+use-muck:
+  effect:
+    amount: 20
+    type: 'VILLAGER_HAPPY'
+    sound: 'BLOCK_NOTE_BASS'
+plant:
+  effect:
+    amount: 20
+    type: 'VILLAGER_HAPPY'
+    sound: 'BLOCK_NOTE_BASS'
+water-plant:
+  effect:
+    amount: 20
+    type: 'VILLAGER_HAPPY'
+    sound: 'BLOCK_NOTE_BASS'
+break-plant:
+  effect:
+    amount: 20
+    type: 'VILLAGER_HAPPY'
+    sound: 'BLOCK_NOTE_BASS'
+chance:
+  normal: 30
+  silver: 5
+  gold: 3
+rain-chance:
+  SPRING: 10/20/50
+  SUMMER: 10/20/50
+  AUTUMN: 10/20/50
+  WINTER: 10/20/50

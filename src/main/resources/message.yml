@@ -1,0 +1,117 @@
+prefix: '&8[&a种植&8]'
+format:
+  kettle-lore: '&f浇水次数: @number@/@max@'
+  reward: '@reward@ - &a@chance@% &7几率触发(&c+@amount@果实&7)'
+  muck:
+    material: APPLE
+    name: '@muck@'
+    lore:
+      - '&7化肥介绍:'
+      - '@present@'
+      - '&7加速天数: &a@day@'
+  sickle:
+    material: STONE_HOE
+    name: '@sickle@'
+    lore:
+      - '&7镰刀介绍:'
+      - '@present@'
+      - ''
+      - '&7增幅:'
+      - '@reward@'
+  kettle:
+    material: BOOK
+    name: '@kettle@'
+    lore:
+      - '&7水壶介绍:'
+      - '@present@'
+      - ''
+      - '&ctip: &f右键水面来吸水'
+  seed:
+    material: STONE
+    name: '@seed@'
+    lore:
+      - '&7种子介绍:'
+      - '@present@'
+      - '&7成长所需天数: &a&l@day@'
+      - '&7可种植季节:'
+      - '@season@'
+  fruit:
+    material: APPLE
+    name: '@fruit@'
+    lore:
+      - '&7果实介绍:'
+      - '@present@'
+      - '&7品质: &a@fq@'
+      - '&7出售价格: &e&n@price@'
+message:
+  is-wilt: '@prefix@ &c植物已经凋零了'
+  get: '@prefix@ &7获取 &e@item@ x@amount@'
+  give: '@prefix@ &7给予@p@ &e@item@ x@amount@'
+  no-online: '@prefix@ &7玩家离线或不存在'
+  error: '@prefix@ &c指令出错,请检查'
+  wait-cd: '@prefix@ &7请等待@h@小时@m@分钟,切户拔苗助长'
+  wilt-plant: '@prefix@ &c它不应该在这个季节生长,凋零了呢'
+  no-water: '@prefix@ &c水壶已经空了，先去装满水吧'
+  wilt-gain: '@prefix@ &7植物枯萎了，得到了 &6@reward@'
+  normal-gain: '@prefix@ &7收获成功，得到了 &6@reward@'
+  muck-sur: '@prefix@ &a使用化肥成功!'
+  no-seed: '@prefix@ &c该果实不存在,请联系管理员,这可能是一个错误'
+  deny-season: '@prefix@ &7该果实不能在 @season@季 &7种植'
+  right-air: '@prefix@ &7请右键空气食用果实'
+  please-wait: '@prefix@ &c植物未成熟，请等待&6@day@&c天'
+  plant-wilt: '@prefix@ &f@seed@枯萎了'
+  town-perm: '@prefix@ &f没有采摘该作物的权限'
+  ref-sur: '@prefix@ &f已为玩家更新数据'
+  no-body: '@prefix@ &f没有足够的体力值'
+  reload: '@prefix@ &c已重载配置文件'
+  help:
+    player:
+      - '@prefix@ &f&l|HELP'
+    admin:
+      - '&c/starcore seed [give/get/list] {player|seed} {seed|amount} {amount}'
+      - '&f获取种子'
+      - '&c/starcore fruit [give/get/list] {player|fruit} {seed|amount} {amount} {quality}'
+      - '&f获取果实'
+      - '&c/starcore muck [give/get/list] {player|muck} {muck|amount} {amount}'
+      - '&f获取化肥'
+      - '&c/starcore sickle [give/get/list] {player|sickle} {sickle|amount} {amount}'
+      - '&f获取镰刀'
+      - '&c/starcore kettle [give/get/list] {player|kettle} {kettle|amount} {amount}'
+      - '&f获取水壶'
+      - '&c/starcore reload &f重载配置文件'
+  player-only: '@prefix@ &7该指令仅玩家可使用'
+  last-cd: '&f本日已经为 &a@seed@ &f浇过水了,请明天再来吧'
+  no-perm: '@prefix@ &7缺少权限 &6@perm@'
+  food:
+    title: '&8[&a+&8]'
+    subtitle: '&c@food@'
+  plant-seed:
+    title: '&8[&a+&8]'
+    subtitle: '@seed@'
+  break-seed:
+    title: '&8[&c-&8]'
+    subtitle: '@seed@'
+  next-stage: '&f为 @seed@ &f浇水完成,当前成长阶段: &a@stage@&f/&c@max@'
+  next-day: '&f为 @seed@ &f浇水完成,剩余&a@day@&f天生长至下一阶段'
+  mellow: '&a@seed@ &f已经成熟了,使用镰刀采摘吧'
+  sickle-reward: '&f成功收获 @seed@ &ax@amount@ &f(发动 &e@reward@ &f额外+ &c@add@&f)'
+  mellow-plant: '&f成功收获 @seed@ &ax@amount@'
+  last-next: '&f作物 @seed@ &f还需 &a@day@ &f天进入下一阶段'
+  muck-seed: '&f为 @seed@ &f催熟生长,当前成长阶段: &a@stage@&f/&c@max@'
+  muck-day: '&f为 @seed@ &f催熟完成,剩余&a@day@&f天生长至下一阶段'
+  plant-limit: '@prefix@ &f已到达种植限制 &f@plant@/@limit@'
+  input-water: '&f已为水壶注满水'
+  no-dirt: '&f请将植物种植在泥土上'
+  sunrise:
+    title: '&a太阳上升了'
+    subtitle: '&f&o今天的劳作可不能停下'
+  sunset:
+    title: '&c我们的太阳下山了'
+    subtitle: '&f&o该休息了...'
+  weather:
+    rain:
+      title: '&9下雨了'
+      subtitle: '&f&o灌溉了所有的作物...'
+    storm:
+      title: '&c&o暴风雨..'
+      subtitle: '&f&o灌溉了所有的作物...'

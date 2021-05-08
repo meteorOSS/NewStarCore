@@ -1,0 +1,6 @@
+test:
+  name: '&b测试化肥'
+  day: 2
+  item:
+    lore:
+      - '&7只是普通的化肥'

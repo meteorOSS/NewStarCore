@@ -1,0 +1,13 @@
+test:
+  name: '&b水壶'
+  item:
+    lore:
+      - '&f很普通的水壶'
+  number: 10
+test2:
+  name: '&b水壶2'
+  range: 3
+  item:
+    lore:
+      - '&f很普通的水壶'
+  number: 10

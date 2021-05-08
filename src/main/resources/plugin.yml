@@ -1,0 +1,13 @@
+name: StarCore
+version: ${project.version}
+main: com.meteor.starcore.StarCore
+softdepend:
+  - PlaceholderAPI
+  - MeteotTown
+depend:
+  - MythicMobs
+  - MeteorLib
+  - MeteorPoints
+authors: [meteor]
+commands:
+  starcore:

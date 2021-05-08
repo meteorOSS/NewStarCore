@@ -1,0 +1,7 @@
+test:
+  name: '&a镰刀'
+  item:
+    lore:
+      - '&f只是普通的镰刀'
+  reward:
+    - '&a农作物馈赠,1,20'

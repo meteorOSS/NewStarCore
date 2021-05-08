@@ -1,0 +1,5 @@
+STONE:
+  fruit:
+    0:
+      SPRING:
+        - 'test#1#10'
